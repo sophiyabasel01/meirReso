@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background: #ffffff;
+    color:black;
+}
+
+@media (max-width: 991px) {
+    li{
+        display: grid;
+    }
+
+    .navbar-nav{
+        border-bottom: solid 2px black;
+    }
+
+    .nav-link{
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        display: inline !important;
+        margin: 3px;
+        padding:2px;
+        color:#000000 !important;
+    }
+    
+    .navbar-nav .active{
+        background:#000000;
+        color:#ffffff !important;
+    }
+    
+    .navbar-nav li a:hover{
+        background:#000000;
+        color:#ffffff !important;
+        transition: all .2s ease-out ;
+    }  
+
+    .big{
+        color: #1a1a1a;
+        font-size: 60px;
+        word-spacing: 10px;
+        font-family: 'Tangerine', cursive;
+    }
+}
+
+.disabled {
+    pointer-events: none;
+  }
+
+.navbar-brand{
+    margin-left: 15px;
+}
+
+.navbar-toggler{
+    margin-right: 15px;
+}
+
+.navbar-nav{
+    vertical-align: top;
+}
+
+.nav-link{
+    color: #000000 !important;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.navbar-nav .active{
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #000000 !important;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.navbar-nav li a:hover{
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #000000 !important;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    transition: all .2s ease-out ;
+}
+
+.navbar-toggler{
+    width: 60px;
+    height: 34px;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #000000;
+    margin-bottom: 5px;
+}
+
+.banner-photo img{
+    width:100%;
+    height: 380px;
+}
+
+.welcome p{
+    margin: 4px;
+    text-align: center;
+}
+
+.big{
+    color: #1a1a1a;
+    font-size: 85px;
+    word-spacing: 10px;
+    font-family: 'Tangerine', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+.hor-line{
+    margin: 20px 5%;
+    position: center center;
+    height: 5px;
+    opacity: 100%;
+    color: #000000 !important;
+}
+
+/*content part*/
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    color: #10182f;
+    padding: 4em;
+}
+
+.container h1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    font-weight: 700;
+}
+
+.card-box {
+    display: flex;
+    width: 1200px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card,
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 320px;
+    margin-bottom: 2%;
+    transition: transform 500ms;
+}
+
+.card {
+    padding: 2em;
+}
+
+.card-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body,
+.product-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    min-height: 100px;
+}
+
+.card-body p {
+    font-size: 15px;
+}
+
+.card-body h4{
+    font-family: 'Cinzel', serif;
+}
+
+.product-body {
+    text-align: left;
+}
+
+
+
+.product-body p {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    margin: 0 0 40px;
+}
+
+
+
+
+/* Footer part*/
+
+.line-3{
+    margin-top: 40px;
+    margin-bottom: 33px;
+}
+
+footer{
+    bottom: 0%;
+    background-color: rgb(233, 229, 229);
+    text-align: center;
+}
+
+.explore{
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 20px;
+}
+
+.footer-logo{
+    margin: 10px;
+    height: 70px;
+    width: 100px;
+}
+
+.footer-contact{
+    font-size: 25px;
+}
+
+.footer-contact img{
+    height: 40px;
+    width: 40px;
+    margin: 0px 25px;
+}
+
+.footer-contact img:hover{
+    transform: scale(1.03);
+}
+
+
+.copyright{
+    margin-top: 10px;
+    padding: 10px;
+    color:#ffffff;
+    background-color: black;
+}

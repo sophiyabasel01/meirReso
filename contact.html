@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meir-Contact Us</title>
+        <link rel="shortcut icon" href="images/meir.jpg.png">
+        <meta name="Final Project" content="Contact-Us page" />
+        <link href="css/contact.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+        <script src="javascript/scripts.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="banner-photo">
+                <img src="images/Contactus.jpg.png" alt="banner-background">
+            </div>
+            <div class="container">
+                <div class="navbar navbar-expand-lg navbar-light fixed-top">
+                    <a href="index.html" class="navbar-brand"><img clas="logo" src="images/meir.jpg.png" alt="logo" width="140px" height="60px"></a>
+                    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-lable="Toggle navigation" id="demo">
+                        <span class="line"></span> 
+                        <span class="line"></span> 
+                        <span class="line" style="margin-bottom: 0;"></span>
+                    </button>
+                    <div class="collaspe navbar-collapse" id="toggleMobileMenu">
+                        <ul class="navbar-nav ms-auto navbar-expand-lg text-center">
+                            <li><a class="nav-link"  href="index.html">Home</a></li>
+                            <li><a class="nav-link" href="about.html">About</a></li>
+                            <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                            <li><a class="nav-link" href="services.html">Services</a></li>
+                            <li><a class="nav-link" href="package.html">Booking</a></li>
+                            <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                            <li><a class="nav-link active" aria-current="page" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="welcome">
+            <p class="big"><b>Contact Us</b></p>
+        </div>
+
+        <hr class="hor-line" />
+
+        <section class="contact" id="contact">
+	
+            <div class="contact-content">
+                <h1>Contact us</h1>
+            <div class="form">
+                <div class="form-item">
+                    <form name="messageForm" onsubmit="validateForm()">
+                <p><span class="info">First name: </span><input type="text" name="firstname"></p>
+                <p><span class="info">Last name:</span><input type="text" name="lastname"></p>
+                <p><span class="info">Gender </span><input type="radio" name="gender" value="male" checked> Male
+                          <input type="radio" name="gender" value="female" checked> female </p>
+                <p><span class="info">Message: </span><br><textarea name="message" row="10" cols="30" placeholder="Enter Message"></textarea></p> 
+                <p><input type="submit" value="Send" style="background: #335791"></p>
+            </form>
+            </div>
+            </div></div></section>
+
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=jorpati,%20Baudha%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embed google maps html</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+        <hr class="hor-line line-3"/>
+
+        <footer>
+            <div class="footer-container">
+              <div class="end-text">
+                  <p class="explore">Explore more:</p>
+                  <p class="footer-nav"><a href="index.html">Home</a>  |   <a href="about.html">About</a> |   <a href="portfolio.html">Portfolio</a>  |   <a href="services.html">Services</a>  |   <a href="package.html">Booking</a>  |   <a href="gallery.html">Gallery</a>   |   <a href="#">Contact</a></p>
+              </div>
+            </div>
+            <div>
+                <p class="end-info"><img src="images/meir.jpg.png" class="footer-logo"><br>Jorpati, Baudha, Nepal<br>Contact No.: +977 9860191111<br>Email: meirresort.hello@gmail.com</p>
+              </div>
+              <div class="footer-contact">
+                <p>Know More About Us:<br></p>
+                <a href="https://www.facebook.com/meirresort/" target="_blank"><img src="images/facebook.png" alt="facebook-icon"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="instagram-icon"></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png" alt="twitter-icon"></a>
+                <a href="https://www.linkedin.com/in/aayushma-ghimire-ab86a2204/" target="_blank"><img src="images/linkedin.png" alt="linkedin-icon"></a>
+                <a href="https://www.youtube.com/watch?v=OaAPtu8PgX8" target="_blank"><img src="images/youtube.png" alt="youtube-icon"></a>
+                <a href="https://github.com/SophiyaBasel" target="_blank"><img src="images/github.png" alt="github-icon"></a>
+                <a href="https://www.tiktok.com/en" target="_blank"><img src="images/tiktok.png" alt="tiktok-icon"></a>
+              </div>
+            <div class="copyright">
+              <p>copyright 2020 &copy;Meir Resort. All Rights Reserved.</p>
+            </div>
+          </footer>
+      </body>
+  </html>
